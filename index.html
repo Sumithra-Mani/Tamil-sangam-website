@@ -308,6 +308,9 @@ const TEXT = {
     .brand b,html[lang="ta"] .brand b{white-space:normal;font-size:.92rem;line-height:1.2}
     .lang button{padding:6px 10px}
   }
+   /* Hide phone, email & WhatsApp until real details are ready */
+a[href^="tel:"], a[href^="mailto:"], a[href^="https://wa.me"], #contact form { display:none !important; }
+#contact .contact-grid { grid-template-columns:1fr !important; max-width:600px; margin-left:auto; margin-right:auto; }
 </style>
 </head>
 <body>
